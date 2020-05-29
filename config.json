@@ -1,0 +1,45 @@
+{
+
+ "Account": {
+     "Username": "minikkibing",
+     "Password": "123456"
+     },
+ "Target Profit": "150.00000000",
+ "Target Win": "10000.00000000",
+ "Lose Target": "0.000000",
+ "Interval": "1",
+ "Config": [{
+
+     "Name Bet Set": "KOCAK",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "9",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "10",
+          "Max": "15"
+        },
+     "Bet": {
+          "Bet": "low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "2",
+              "If Win": "4"
+            }
+	        },
+     "If Win": "0",
+     "If Lose": "1.15",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.000001",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "500",
+       "Wallet Address": "DG2evKnA5afge3EV1Kr2cPaJWvbeU9YmYK",
+       "Amount": "200"
+      },
+  "User-Agent": "Mozilla/5.0 (Linux; Android 9; RMX1831) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36"
+
+}
